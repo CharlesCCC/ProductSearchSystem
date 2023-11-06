@@ -1,5 +1,5 @@
 # ProductSearchSystem
-ProductSearchSystem with Solr 
+ProductSearchSystem with the support of upload CSV/TSV file via POST API and backup to MySQL DB, then all the data get feed back into Solr search. There is GET API to perform search. 
 
 # Deployment doc
 * Tool Prerequisite:   \

@@ -55,7 +55,7 @@ class ProductControllerIntegrationTest {
                 .andExpect(MockMvcResultMatchers.status().isOk())
                 .andReturn();
 
-        assertEquals("Order Updated", result.getResponse().getContentAsString());
+        assertEquals("Product Updated", result.getResponse().getContentAsString());
     }
 
     @Test
